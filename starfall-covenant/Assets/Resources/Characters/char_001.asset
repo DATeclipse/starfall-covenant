@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e88c1b45fc24773ac761cd8cc20acf, type: 3}
+  m_Name: char_001
+  m_EditorClassIdentifier: Assembly-CSharp::StarfallCovenant.ScriptableObjects.CharacterSO
+  characterId: char_001
+  characterName: Aria
+  race: 1
+  baseRarity: 2
+  baseStats:
+    hp: 500
+    attack: 80
+    defense: 40
+    speed: 5
+    specialPower: 30
+  abilities:
+  - {fileID: 11400000, guid: 381744970e6c44dccbd6dfdea36eb7d3, type: 2}
+  portrait: {fileID: 0}
+  battleSprite: {fileID: 0}
+  animatorController: {fileID: 0}
+  lore: 
